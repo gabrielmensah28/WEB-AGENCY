@@ -298,8 +298,14 @@ footer {
     }
     .code-cont {
         flex-direction: column;
-        padding-left: 30px;
+        padding-left: 10px;
     }
+ 
+.code-tools {
+    color: #fff;
+    font-size: 15px;
+    width: 300px;
+}
     .cont2-word div h1{
         font-size: 30px;    
         padding-top: 50px;  
