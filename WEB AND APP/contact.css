@@ -561,12 +561,12 @@ footer {
         flex-direction: column;
     }
     .ndcontact {
-        
+        width:400px;
         height: 600px;
     }
     .ndcontact .ndcontact-form form {
 
-    flex-direction: column;
+
 }
     .ndcontact .ndcontact-form form input[type="submit"] {
         margin-top: 35px;
