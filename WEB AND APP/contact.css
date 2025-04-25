@@ -561,7 +561,7 @@ footer {
         flex-direction: column;
     }
     .ndcontact {
-        width:400px;
+        width:800px;
         height: 600px;
     }
     .ndcontact .ndcontact-form form {
