@@ -566,6 +566,8 @@ footer {
     .ndcontact .ndcontact-form form input[type="submit"] {
         margin-top: 35px;
         margin-left: 10px;
+        width: 130px;
+        padding: 10px;
     }
 }
 @media (max-width:991px)
