@@ -67,21 +67,21 @@ nav ul li a:hover {
     height: 70px;
     border-radius: 50%;
 }
-.topic {
+.testimonial-topic {
     font-size: 20px;
     color:  #20303f;
     padding-top: 150px;
     padding-left: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.topic h1 {
+.testimonial-topic h1 {
     text-align: center;
     padding: 60px 0 70px;
     text-transform: uppercase;
     font-size: 45px;
 }
 
-.topic h1::after {
+.testimonial-topic h1::after {
     content: "";
     width: 80px;
     height: 5px;
@@ -112,6 +112,56 @@ nav ul li a:hover {
     text-align: center;
     padding-top: 15px;
     font-size: 20px;
+}
+.testimonial-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.testimonial-box {
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.49);
+}
+
+.testimonial-box h3 {
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.testimonial-box p {
+    line-height: 1.6;
+    font-style: italic;
+}
+
+.testimonial-box:hover {
+transform: translateY(-8px);
+}
+
+.client-info {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background:  #1d3d5c;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
 }
 
 
