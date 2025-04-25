@@ -562,11 +562,12 @@ footer {
     }
     .ndcontact {
         width: 100%;
+        width: 600px;
     }
     .ndcontact .ndcontact-form form input[type="submit"] {
         margin-top: 35px;
-        margin-left: 10px;
-        width: 130px;
+        margin-left: 0;
+        width: 100px;
         padding: 10px;
     }
 }
