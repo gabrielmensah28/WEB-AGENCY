@@ -561,11 +561,11 @@ footer {
         flex-direction: column;
     }
     .ndcontact {
-           width: 40%;
+        
         height: 600px;
     }
     .ndcontact .ndcontact-form form {
-        width: ;
+
     flex-direction: column;
 }
     .ndcontact .ndcontact-form form input[type="submit"] {
